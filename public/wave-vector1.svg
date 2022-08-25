@@ -1,0 +1,11 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="wave-vector1" clip-path="url(#clip0_1_2)">
+<path id="Vector" d="M1920 0H0V1080H1920V0Z" fill="#47B5FF"/>
+<path id="Wave" d="M1920 161L1840 185.6C1760 210.4 1600 259.6 1440 288.4C1280 317 1120 325 960 309C800 293 640 253 480 254.6C320 256.4 160 299.6 80 321.4L0 343V-9H80C160 -9 320 -9 480 -9C640 -9 800 -9 960 -9C1120 -9 1280 -9 1440 -9C1600 -9 1760 -9 1840 -9H1920V161Z" fill="#0066FF"/>
+</g>
+<defs>
+<clipPath id="clip0_1_2">
+<rect width="1920" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>
