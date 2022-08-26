@@ -43,9 +43,9 @@ function App() {
        
       </div>
       <div className = "row projects">
-      <div className="col-lg-4 cards" align="center"><Card /></div>
-        <div className="col-lg-4 cards" align="center"><Card /></div>
-        <div className="col-lg-4 cards" align="center"><Card /></div>
+      <div className="col-lg-4 cards" align="center"><Card title="Weather WebApp" url = "https://murmuring-peak-24594.herokuapp.com/" content="Want to know the weather? Here is a beautiful webapp designed using node.js,express.js and ejs to give you the current temperature of any location in the world!" src="./weather-preview.png"/></div>
+        <div className="col-lg-4 cards" align="center"><Card title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." src="./wave-vector-light.svg"/></div>
+        <div className="col-lg-4 cards" align="center"><Card title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." src="./wave-vector-light.svg"/></div>
       </div>
       </div>
        <div id="Svg"><Svg /></div>
