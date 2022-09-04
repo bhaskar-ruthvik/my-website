@@ -3,6 +3,7 @@ import React, { useState } from "react"
 
 function Navbar(){
   const [toggle,setToggle]= useState(true)
+  const [itemToggle,setItemToggle] = useState(true)
      function handleClick(){
       if(toggle){
         setToggle(false)
@@ -10,6 +11,13 @@ function Navbar(){
         setToggle(true)
       }
     
+     }
+     function handleItemClick(){
+      if(itemToggle){
+        setItemToggle(false)
+      } else {
+        setItemToggle(true)
+      }
      }
     return (
     
@@ -21,13 +29,13 @@ function Navbar(){
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a onClick={handleClick} className="nav-link active" href="#footer" >Home</a>
+              <a onClick={handleClick} className="nav-link active" href="#root" >Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#root"  data-bs-target=".navbar-collapse.hidden">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#footer" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</a>
+              <a onClick={handleItemClick} className="nav-link" href="#footer" data-bs-toggle="collapse" data-bs-target={itemToggle ? "#navbarNav" : ".navbar-collapse.show"}>Contact</a>
               </li>
           </ul>
         </div>
