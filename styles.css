@@ -4,6 +4,12 @@ body{
   background-color:#002233;
   scroll-behavior: smooth;
 }
+a{
+  color: white;
+}
+a:hover{
+  color: #ccf0ff;
+}
 .main-page {
   text-align: center;
   background-color: #06283D;
@@ -335,11 +341,12 @@ margin-top: 20.3%;
 }
 
 @media (min-width:883px) and (max-width:996px){
+  
   .mobile-filler{
-    background-color:#69abff;
+    /* background-color:#69abff; */
     height:20rem;
     position:absolute;
-    z-index:1
+    z-index:1;
   }
   .heading{
     font-size : 2.5rem;
@@ -370,7 +377,7 @@ margin-top: 20.3%;
   }
 }
 
-@media (min-width:625px) and (max-width:882px){
+@media (min-width:675px) and (max-width:883px){
   .navbar-collapse{
     background-color:#dff6ff;
    
@@ -378,7 +385,7 @@ margin-top: 20.3%;
     font-size:2rem;
   }
   .mobile-filler{
-    background-color:#69abff;
+    
     height:20rem;
   }
   .heading{
@@ -429,7 +436,7 @@ margin-top: 20.3%;
   }
 }
 
-@media (min-width:505px) and (max-width:624px){
+@media (min-width:505px) and (max-width:675px){
   
   .heading{
     padding-top: 0;
